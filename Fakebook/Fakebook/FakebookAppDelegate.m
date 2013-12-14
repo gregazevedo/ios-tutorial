@@ -7,7 +7,6 @@
 //
 
 #import "FakebookAppDelegate.h"
-#import "ContainerViewController.h"
 
 @implementation FakebookAppDelegate
 
@@ -15,8 +14,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    ContainerViewController *navController = [ContainerViewController new];
-    self.window.rootViewController = navController;
+    self.window.rootViewController = [FBRootViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }

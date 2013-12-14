@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBRootViewController.h"
 
 @interface FakebookAppDelegate : UIResponder <UIApplicationDelegate>
 

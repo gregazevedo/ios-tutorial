@@ -1,5 +1,5 @@
 //
-//  ContainerViewController.h
+//  FBRootViewController.h
 //  Fakebook
 //
 //  Created by Gregory Azevedo on 12/13/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContainerViewController : UIViewController
+@interface FBRootViewController : UIViewController
 
 @end
